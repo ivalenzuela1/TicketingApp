@@ -1,9 +1,7 @@
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
-  return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>Ticketing App</div>
-    </main>
-  );
-}
+const Dashboard = () => {
+  return <div>Dashboard</div>;
+};
+
+export default Dashboard;
